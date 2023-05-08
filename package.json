@@ -12,7 +12,8 @@
   ],
   "main": "index.js",
   "scripts": {
-    "test": "mocha specs --require specs/helpers/chai.js"
+    "test": "mocha specs --require specs/helpers/chai.js",
+    "start": "npm run test && node index.js"
   },
   "repository": {
     "type": "git",
